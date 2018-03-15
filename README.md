@@ -1,13 +1,12 @@
-[![Build Status](https://travis-ci.org/Matt-Jensen/ember-js-pdf.svg?branch=master)](https://travis-ci.org/Matt-Jensen/ember-js-pdf)
-[![Ember Observer Score](http://emberobserver.com/badges/ember-js-pdf.svg)](http://emberobserver.com/addons/ember-js-pdf)
-
-# ember-js-pdf
+# ember-master-perfect-jspdf
 
 Generate, render, and save PDF files in the browser with [jsPDF](https://github.com/MrRio/jsPDF). See [examples of jsPDF](https://parall.ax/products/jspdf).
 
+Fork of [ember-js-pdf](https://github.com/Matt-Jensen/ember-js-pdf) to use with custom fonts
+
 ## Installation
 
-* `ember install ember-js-pdf`
+* `ember install ember-master-perfect-jspdf`
 
 ## Usage
 

@@ -4,14 +4,14 @@
 const map = require('broccoli-stew').map;
 
 module.exports = {
-  name: 'ember-js-pdf',
+  name: 'ember-master-perfect-jspdf',
 
   options: {
     nodeAssets: {
-      'jspdf': {
+      'jspdf-customfonts': {
         vendor: {
           srcDir: 'dist',
-          include: ['jspdf.debug.js'],
+          include: ['jspdf.customfonts.debug.js'],
           processTree(input) {
             return map(input, '**/*.js', (content) => {
               /*
@@ -30,7 +30,7 @@ module.exports = {
   included() {
     this._super.included.apply(this, arguments);
     this._ensureThisImport();
-    this.import('vendor/jspdf/jspdf.debug.js');
+    this.import('vendor/jspdf-customfonts/jspdf.customfonts.debug.js');
   },
 
   _ensureThisImport() {

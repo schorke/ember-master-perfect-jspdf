@@ -1,1 +1,1 @@
-export {default} from 'ember-js-pdf/components/js-pdf';
+export {default} from 'ember-master-perfect-jspdf/components/js-pdf';
