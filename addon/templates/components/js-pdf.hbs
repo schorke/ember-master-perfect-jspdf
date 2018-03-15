@@ -1,0 +1,8 @@
+{{yield (hash
+  filename=filename
+  content=content
+  save=(action "onSave"))}}
+
+{{#if showPdf}}
+  <object class="ember-js-pdf__frame" width={{width}} height={{height}} data={{src}}></object>
+{{/if}}
